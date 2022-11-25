@@ -5,10 +5,11 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 
 import org.junit.jupiter.api.Test;
 
+import com.validator.password.PasswordValidator;
 import com.validator.password.exception.ValidationException;
 
 class TestNullCheckValidator {
-	NullCheckValidator nullCheckValidator = new NullCheckValidator();
+	PasswordValidator nullCheckValidator = new NullCheckValidator();
 
 	@Test
 	void testShouldValidateWhenStringIsNull() {

@@ -5,11 +5,12 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 
 import org.junit.jupiter.api.Test;
 
+import com.validator.password.PasswordValidator;
 import com.validator.password.exception.ValidationException;
 
 class TestLowerCaseValidator {
 	
-	LowerCaseValidator lowerCaseValidator =new LowerCaseValidator();
+	PasswordValidator lowerCaseValidator =new LowerCaseValidator();
 	
 
 	@Test

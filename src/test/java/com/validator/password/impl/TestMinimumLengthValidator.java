@@ -5,11 +5,12 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 
 import org.junit.jupiter.api.Test;
 
+import com.validator.password.PasswordValidator;
 import com.validator.password.exception.ValidationException;
 
 class TestMinimumLengthValidator {
 
-	MinimumLengthValidator minimumLengthValidator = new MinimumLengthValidator();
+	PasswordValidator minimumLengthValidator = new MinimumLengthValidator();
 
 	@Test
 	void testShouldValidateMinimumLengthWhenStringIsNull() {

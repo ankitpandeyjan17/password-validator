@@ -3,14 +3,14 @@ package com.validator.password.impl;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
-import org.junit.Before;
 import org.junit.jupiter.api.Test;
 
+import com.validator.password.PasswordValidator;
 import com.validator.password.exception.ValidationException;
 
 class TestUpperCaseValidator {
 
-	UpperCaseValidator upperCaseValidator = new UpperCaseValidator();
+	PasswordValidator upperCaseValidator = new UpperCaseValidator();
 
 
 	@Test
